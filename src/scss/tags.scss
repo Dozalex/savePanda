@@ -1,0 +1,31 @@
+body {
+  min-width: 1024px;
+}
+
+h1 {
+  margin: 0 0 5px 0;
+  font: $font-h1;
+  color: $color-light;
+  text-transform: uppercase;
+}
+
+h2 {
+  margin: 0 0 5px 0;
+  font: $font-h2;
+  color: $color-light;
+  text-transform: uppercase;
+}
+
+p {
+  font: $font-main;
+  margin: 0;
+  color: $color-light;
+}
+
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+}
+
+svg {
+  overflow: visible !important;
+}

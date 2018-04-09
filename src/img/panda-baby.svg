@@ -1,0 +1,367 @@
+<svg width="347" height="313" viewBox="0 0 347 313" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <style>
+        #panda_baby_shadow { filter: url(#panda_baby_filter0_d); }
+
+        * {
+        transform-box: fill-box;
+        }
+
+        <!--nipple-->
+        #nipple
+        {
+        transform-origin: center;
+        animation: nipple 10s infinite ease;
+        }
+
+        @keyframes nipple {
+        0%   { transform: translateY(2px); }
+        5%   { transform: translateY(-2px); }
+        10%   { transform: translateY(2px); }
+        15%   { transform: translateY(-2px); }
+        20%   { transform: translateY(2px); }
+
+        30%   { transform: translateY(2px); }
+        40%   { transform: translateY(65px); }
+        50%   { transform: translateY(65px); }
+        60%   { transform: translateY(65px); }
+        70%   { transform: translateY(2px); }
+        75%   { transform: translateY(-2px); }
+        80%   { transform: translateY(2px); }
+        85%   { transform: translateY(-2px); }
+        90%   { transform: translateY(2px); }
+        95%   { transform: translateY(-2px); }
+        100%   { transform: translateY(2px); }
+        }
+
+        <!--hand-->
+        #right_hand {
+        transform-origin: 40px 20px;
+        animation: hand_baby 10s infinite ease;
+        }
+
+        @keyframes hand_baby {
+        0%   { transform: rotate(10deg); }
+        5%   { transform: rotate(0deg); }
+        10%   { transform: rotate(10deg); }
+        15%   { transform: rotate(0deg); }
+        20%   { transform: rotate(10deg); }
+        30%   { transform: rotate(100deg); }
+        40%   { transform: rotate(30deg); }
+        50%   { transform: rotate(30deg); }
+        60%   { transform: rotate(30deg); }
+        70%   { transform: rotate(100deg); }
+        80%   { transform: rotate(100deg); }
+        85%   { transform: rotate(0deg); }
+        90%   { transform: rotate(10deg); }
+        95%   { transform: rotate(0deg); }
+        100%   { transform: rotate(10deg); }
+        }
+
+        <!--legs-->
+        #panda_baby_right_leg {
+        transform-origin: bottom;
+        animation: leg_baby 10s infinite ease;
+        }
+        #panda_baby_left_leg {
+        transform-origin: bottom;
+        animation: leg_baby_left 10s infinite ease;
+        }
+        #left_hand {
+        transform-origin: top;
+        animation: leg_baby 10s infinite ease;
+        }
+
+        @keyframes leg_baby {
+        0%   { transform: rotate(0deg); }
+        5%   { transform: rotate(5deg); }
+        10%   { transform: rotate(0deg); }
+        15%   { transform: rotate(5deg); }
+        20%   { transform: rotate(0deg); }
+        30%   {  }
+        40%   {  }
+        50%   {  }
+        60%   {  }
+        70%   {  }
+        80%   { transform: rotate(0deg); }
+        85%   { transform: rotate(5deg); }
+        90%   { transform: rotate(0deg); }
+        95%   { transform: rotate(5deg); }
+        100%   { transform: rotate(0deg); }
+        }
+
+        @keyframes leg_baby_left {
+        0%   { transform: rotate(5deg); }
+        5%   { transform: rotate(0deg); }
+        10%   { transform: rotate(5deg); }
+        15%   { transform: rotate(0deg); }
+        20%   { transform: rotate(5deg); }
+        30%   {  }
+        40%   {  }
+        50%   {  }
+        60%   {  }
+        70%   {  }
+        80%   { transform: rotate(5deg); }
+        85%   { transform: rotate(0deg); }
+        90%   { transform: rotate(5deg); }
+        95%   { transform: rotate(0deg); }
+        100%   { transform: rotate(5deg); }
+        }
+
+        <!--mouth-->
+        #panda_baby_32_fill {
+        animation: mouth_baby 1s infinite alternate ease;
+        }
+
+        @keyframes mouth_baby {
+        0%   { transform: scale(1); }
+        100%   { transform: scale(1.3); }
+        }
+
+        <!--eyes by hover to bottle-->
+        #bottle:hover ~ #panda_baby_left_glare, #bottle:hover ~ #panda_baby_right_glare {
+        animation: eyes_baby 0.3s infinite linear;
+        }
+        @keyframes eyes_baby {
+        0%   { transform: translate(1px, 0px); }
+        25%   { transform: translate(0px, 1px); }
+        50%   { transform: translate(-1px, 0 px); }
+        100%   { transform: translate(0px, -1px); }
+        }
+
+    </style>
+<g id="Panda_baby_block" transform="translate(7197 -2335)">
+<g id="Panda_baby">
+<g id="panda_baby_shadow">
+<use xlink:href="#panda_baby_0_fill" transform="matrix(1 0 6.28651e-05 1 -7197 2543)" fill="#666464" fill-opacity="0.08"/>
+</g>
+<g id="ears">
+<g id="left ear">
+<use xlink:href="#panda_baby_1_fill" transform="translate(-7120 2335.2)" fill="#383D42"/>
+</g>
+<g id="right ear">
+<use xlink:href="#panda_baby_2_fill" transform="translate(-6978.65 2335)" fill="#383D42"/>
+</g>
+</g>
+<g id="body">
+<g id="Ellipse">
+<use xlink:href="#panda_baby_3_fill" transform="translate(-7106.85 2461.2)" fill="#FFFFFF"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#panda_baby_4_fill" transform="translate(-7113 2461.2)" fill="#E2E2E2"/>
+</g>
+<g id="Vector 2">
+<use xlink:href="#panda_baby_5_fill" transform="translate(-7110.85 2492)" fill="#383D42"/>
+</g>
+</g>
+<g id="head">
+<g id="head">
+<use xlink:href="#panda_baby_6_fill" transform="translate(-7128 2342.4)" fill="#FFFFFF"/>
+</g>
+<g id="shadow">
+<use xlink:href="#panda_baby_7_fill" transform="translate(-7128 2347.49)" fill="#E2E2E2"/>
+</g>
+</g>
+<g id="eyes_with_nose">
+    <g id="bottle">
+        <g id="Rectangle">
+            <use xlink:href="#panda_baby_38_fill" transform="matrix(1 1.11215e-16 -5.54152e-17 1 -6905 2531.36)" fill="#BFE8F5"/>
+        </g>
+        <g id="Rectangle">
+            <use xlink:href="#panda_baby_39_fill" transform="matrix(1 1.11215e-16 -5.54152e-17 1 -6903 2532)" fill="#B9DFEB"/>
+        </g>
+        <g id="Subtract">
+            <use xlink:href="#panda_baby_40_fill" transform="matrix(1 1.11215e-16 -5.54152e-17 1 -6902 2563)" fill="#DEF3FA"/>
+        </g>
+        <g id="Union">
+            <use xlink:href="#panda_baby_41_fill" transform="matrix(1 2.14777e-16 -2.54188e-18 1 -6895.65 2514)" fill="#F8FAAA"/>
+        </g>
+        <g id="Line">
+            <use xlink:href="#panda_baby_42_stroke" transform="matrix(1 -2.44929e-16 2.44929e-16 1 -6902 2561)" fill="#FFFFFF"/>
+        </g>
+        <g id="Line">
+            <use xlink:href="#panda_baby_42_stroke" transform="matrix(1 -2.44929e-16 2.44929e-16 1 -6902 2549)" fill="#FFFFFF"/>
+        </g>
+        <g id="Line">
+            <use xlink:href="#panda_baby_42_stroke" transform="matrix(1 -2.44929e-16 2.44929e-16 1 -6902 2555)" fill="#FFFFFF"/>
+        </g>
+        <g id="Line">
+            <use xlink:href="#panda_baby_42_stroke" transform="matrix(1 0 3.30872e-24 1 -6902 2567)" fill="#FFFFFF"/>
+        </g>
+        <g id="Line">
+            <use xlink:href="#panda_baby_42_stroke" transform="matrix(1 0 3.30872e-24 1 -6902 2573)" fill="#FFFFFF"/>
+        </g>
+        <g id="Rectangle 2">
+            <use xlink:href="#panda_baby_43_fill" transform="matrix(1 1.11215e-16 -5.54152e-17 1 -6899.16 2526.02)" fill="#FFC4CF"/>
+        </g>
+    </g>
+<g id="Vector">
+<use xlink:href="#panda_baby_8_fill" transform="translate(-7095 2385.52)" fill="#3E444A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#panda_baby_9_fill" transform="translate(-7074.13 2403.89)" fill="#27272B"/>
+</g>
+<g id="Vector">
+<use xlink:href="#panda_baby_10_fill" transform="translate(-7067.07 2415.14)" fill="#FFFFFF"/>
+</g>
+<g id="panda_baby_left_glare">
+<use xlink:href="#panda_baby_11_fill" transform="translate(-7059.82 2408.92)" fill="#FFFFFF"/>
+</g>
+<g id="Vector">
+<use xlink:href="#panda_baby_12_fill" transform="translate(-7033.69 2423)" fill="#2C2D32"/>
+</g>
+<g id="Vector">
+<use xlink:href="#panda_baby_13_fill" transform="translate(-7030.28 2423.2)" fill="#364144"/>
+</g>
+<g id="Vector">
+<use xlink:href="#panda_baby_14_fill" transform="translate(-7020.85 2425.23)" fill="#747A80"/>
+</g>
+<g id="Vector">
+<use xlink:href="#panda_baby_15_fill" transform="translate(-7003.24 2385.52)" fill="#3E444A"/>
+</g>
+<g id="Vector">
+<use xlink:href="#panda_baby_16_fill" transform="translate(-6995.37 2403.89)" fill="#27272B"/>
+</g>
+<g id="Vector">
+<use xlink:href="#panda_baby_17_fill" transform="translate(-6989.47 2415.14)" fill="#FFFFFF"/>
+</g>
+<g id="panda_baby_right_glare">
+<use xlink:href="#panda_baby_18_fill" transform="translate(-6982.23 2408.92)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="legs">
+<g id="panda_baby_left_leg">
+<g id="Ellipse">
+<use xlink:href="#panda_baby_19_fill" transform="matrix(-0.858042 -0.506684 -0.50073 0.869691 -7051.37 2585.08)" fill="#383D42"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#panda_baby_20_fill" transform="matrix(-0.858042 -0.506684 -0.50073 0.869691 -7077.21 2593.62)" fill="#5B6167"/>
+</g>
+<g id="Ellipse 2.1">
+<use xlink:href="#panda_baby_21_fill" transform="matrix(-0.858042 -0.506684 -0.50073 0.869691 -7095.46 2585.27)" fill="#999DA1"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#panda_baby_22_fill" transform="matrix(-0.474954 -0.884077 -0.869256 0.487261 -7069.72 2594.38)" fill="#5B6167"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#panda_baby_23_fill" transform="matrix(-0.993 0.0168861 0.00949078 1.00681 -7103.83 2570.1)" fill="#5B6167"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#panda_baby_24_fill" transform="matrix(-0.689715 -0.724192 -0.712366 0.701802 -7074.14 2583.4)" fill="#5B6167"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#panda_baby_25_fill" transform="matrix(-0.858042 -0.506683 -0.50073 0.869691 -7082.53 2575.15)" fill="#5B6167"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#panda_baby_26_fill" transform="matrix(-0.961686 -0.251029 -0.252251 0.973927 -7092.91 2569.98)" fill="#5B6167"/>
+</g>
+</g>
+<g id="panda_baby_right_leg">
+<g id="Ellipse">
+<use xlink:href="#panda_baby_27_fill" transform="matrix(0.858042 -0.506684 0.50073 0.869691 -6995.38 2585.08)" fill="#383D42"/>
+</g>
+<g id="Ellipse 2">
+<use xlink:href="#panda_baby_28_fill" transform="matrix(0.858042 -0.506684 0.50073 0.869691 -6969.54 2593.62)" fill="#5B6167"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#panda_baby_22_fill" transform="matrix(0.474955 -0.884077 0.869256 0.48726 -6977.03 2594.38)" fill="#5B6167"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#panda_baby_23_fill" transform="matrix(0.993 0.0168861 -0.00949078 1.00681 -6942.92 2570.1)" fill="#5B6167"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#panda_baby_24_fill" transform="matrix(0.689714 -0.724194 0.712365 0.701803 -6972.62 2583.4)" fill="#5B6167"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#panda_baby_25_fill" transform="matrix(0.858042 -0.506684 0.50073 0.869691 -6964.23 2575.15)" fill="#5B6167"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#panda_baby_26_fill" transform="matrix(0.961686 -0.251029 0.252252 0.973927 -6953.84 2569.98)" fill="#5B6167"/>
+</g>
+<g id="Ellipse 2.2">
+<use xlink:href="#panda_baby_29_fill" transform="matrix(-0.877451 0.472276 0.485325 0.87838 -6956.57 2589)" fill="#999DA1"/>
+</g>
+</g>
+</g>
+<g id="cheeks">
+<g id="Vector">
+<use xlink:href="#panda_baby_30_fill" transform="matrix(1 8.67362e-19 0.00177645 0.999998 -7089 2436)" fill="#FFD6D6" fill-opacity="0.5"/>
+</g>
+<g id="Vector">
+<use xlink:href="#panda_baby_31_fill" transform="matrix(1 8.67362e-19 0.00177645 0.999998 -6986 2436)" fill="#FFD6D6" fill-opacity="0.5"/>
+</g>
+</g>
+<g id="mouth">
+<use xlink:href="#panda_baby_32_fill" transform="translate(-7026 2466)" fill="#383D42"/>
+</g>
+<g id="nipple">
+<g id="Ellipse 2">
+<use xlink:href="#panda_baby_33_fill" transform="matrix(1 5.55112e-17 5.55112e-17 -1 -7048 2482.2)" fill="#BCB4D4"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#panda_baby_34_fill" transform="matrix(-1 -1.78188e-16 1.77764e-16 -1 -7011.46 2489.17)" fill="#7B98A8"/>
+</g>
+<g id="Ellipse 3">
+<use xlink:href="#panda_baby_35_fill" transform="matrix(0.999962 -0.00872654 0.00872654 0.999962 -7033.22 2458.52)" fill="#E6E1F2"/>
+</g>
+<g id="Vector">
+<use xlink:href="#panda_baby_36_fill" transform="matrix(1 5.55112e-17 -5.55112e-17 1 -7046 2453.65)" fill="#E8E0FF"/>
+</g>
+</g>
+<g id="left_hand">
+<use xlink:href="#panda_baby_37_fill" transform="matrix(0.995504 -0.0947207 -0.0889763 -0.996034 -7111.42 2587)" fill="#383D42"/>
+</g>
+<g id="right_hand">
+<use xlink:href="#panda_baby_37_fill" transform="matrix(-0.995504 -0.0947207 0.0889763 -0.996034 -6933.58 2586)" fill="#383D42"/>
+</g>
+</g>
+</g>
+<defs>
+    <filter id="panda_baby_filter0_d" filterUnits="userSpaceOnUse" x="-7197" y="2543" width="347" height="110" color-interpolation-filters="sRGB">
+        <feGaussianBlur stdDeviation="3"/>
+    </filter>
+<path id="panda_baby_0_fill" d="M 346.993 52.1995C 346.993 81.0284 269.316 104.399 173.497 104.399C 77.6771 104.399 0 81.0284 0 52.1995C 0 23.3705 77.6771 0 173.497 0C 269.316 0 346.993 23.3705 346.993 52.1995Z"/>
+<path id="panda_baby_1_fill" d="M 26.7731 50.5004C 41.5595 50.5004 53.5463 39.1955 53.5463 25.2502C 53.5463 11.3049 41.5595 0 26.7731 0C 11.9867 0 0 11.3049 0 25.2502C 0 39.1955 11.9867 50.5004 26.7731 50.5004Z"/>
+<path id="panda_baby_2_fill" d="M 26.3078 51.5995C 40.8371 51.5995 52.6155 40.0485 52.6155 25.7997C 52.6155 11.5509 40.8371 0 26.3078 0C 11.7784 0 0 11.5509 0 25.7997C 0 40.0485 11.7784 51.5995 26.3078 51.5995Z"/>
+<path id="panda_baby_3_fill" d="M 174.02 93.8832C 174.02 145.733 135.065 163.198 87.0102 163.198C 38.9558 163.198 0 145.733 0 93.8832C 0 42.0329 38.9558 0 87.0102 0C 135.065 0 174.02 42.0329 174.02 93.8832Z"/>
+<path id="panda_baby_4_fill" fill-rule="evenodd" d="M 95.5537 163.182C 55.0278 158.388 24.979 139.113 24.979 94.9453C 24.979 46.2058 61.5713 6.12061 108.454 1.32227C 103.377 0.452637 98.1602 0 92.8384 0C 41.5654 0 0 42.033 0 93.8831C 0 145.733 41.5654 163.198 92.8384 163.198C 93.7466 163.198 94.6519 163.193 95.5537 163.182Z"/>
+<path id="panda_baby_5_fill" d="M 0 45C 0 40.5236 9.06667 11.4266 19.7333 0.795072C 70.5563 20.5693 101.372 20.3101 154.957 0C 162.667 4.15241 176 33.2493 176 44.4404C 113.105 14.8462 64.8028 13.6893 0 45Z"/>
+<path id="panda_baby_6_fill" d="M 209.066 88.4363C 215.572 149.18 165.298 167.286 106.211 166.788C 17.4602 166.042 -6.81445 138.619 1.54453 82.1453C 8.60251 34.4708 49.2482 0 106.211 0C 170.166 0.0414561 204.177 42.6169 209.066 88.4363Z"/>
+<path id="panda_baby_7_fill" d="M 73.0641 146.386C 48.2389 139.034 23.0059 116.383 22.0084 90.7841C 20.2087 42.6535 50.3792 20.2202 70.1762 0C 32.5662 11.245 7.00139 40.1917 1.54799 77.0462C -6.82183 133.52 17.4528 160.995 106.214 161.689C 165.042 162.176 215.109 144.236 209.146 84.1249C 209.146 166.146 97.8894 153.738 73.0641 146.386Z"/>
+<path id="panda_baby_8_fill" d="M 50.6059 22.1688C 53.7302 34.7761 49.6013 44.7833 24.8062 47.6911C 3.47752 50.1955 1.21286e-05 37.0152 1.21286e-05 23.8455C 1.21286e-05 17.5213 2.6135 11.4561 7.26556 6.98421C 11.9176 2.5123 18.2272 -9.06801e-06 24.8062 -9.06801e-06C 38.5064 -9.06801e-06 47.4375 9.34932 50.6059 22.1688Z"/>
+<path id="panda_baby_9_fill" d="M 12.7143 24.8455C 19.7363 24.8455 25.4287 19.2837 25.4287 12.4228C 25.4287 5.56186 19.7363 2.42355e-06 12.7143 2.42355e-06C 5.69241 2.42355e-06 0 5.56186 0 12.4228C 0 19.2837 5.69241 24.8455 12.7143 24.8455Z"/>
+<path id="panda_baby_10_fill" d="M 3.57627 6.98851C 5.55139 6.98851 7.15254 5.42408 7.15254 3.49425C 7.15254 1.56443 5.55139 3.46221e-06 3.57627 3.46221e-06C 1.60115 3.46221e-06 0 1.56443 0 3.49425C 0 5.42408 1.60115 6.98851 3.57627 6.98851Z"/>
+<path id="panda_baby_11_fill" d="M 6.82743 13.3417C 10.5981 13.3417 13.6549 10.3551 13.6549 6.67085C 13.6549 2.98664 10.5981 -3.80844e-06 6.82743 -3.80844e-06C 3.05674 -3.80844e-06 0 2.98664 0 6.67085C 0 10.3551 3.05674 13.3417 6.82743 13.3417Z"/>
+<path id="panda_baby_12_fill" d="M 21.5624 4.23145C 21.5624 7.88404 15.8753 13.1999 10.5619 13.1999C 5.24844 13.1999 5.95056e-06 7.72913 5.95056e-06 4.07654C 5.95056e-06 0.423955 5.29718 -5.97151e-06 10.5619 -5.97151e-06C 15.8265 -5.97151e-06 21.5624 0.578866 21.5624 4.23145Z"/>
+<path id="panda_baby_13_fill" d="M 17.9349 4.29757C 17.7318 7.28161 12.6193 12.3682 8.48394 12.3275C 4.1617 12.2867 -0.38802 7.43562 0.0263295 3.97055C 0.440679 0.505488 4.08859 0 8.49207 0C 12.8956 0 18.1705 0.783591 17.9349 4.29757Z"/>
+<path id="panda_baby_14_fill" d="M 2.83545 5.15275C 4.40143 5.15275 5.6709 3.99927 5.6709 2.57638C 5.6709 1.15348 4.40143 -2.73694e-06 2.83545 -2.73694e-06C 1.26947 -2.73694e-06 0 1.15348 0 2.57638C 0 3.99927 1.26947 5.15275 2.83545 5.15275Z"/>
+<path id="panda_baby_15_fill" d="M 0.904335 22.1688C -2.2199 34.7761 1.90898 44.7833 26.7041 47.6911C 48.0328 50.1955 51.5103 37.0152 51.5103 23.8455C 51.5103 17.5213 48.8968 11.4561 44.2447 6.98421C 39.5926 2.51231 33.2831 -6.03232e-14 26.7041 1.08493e-27C 12.9597 -6.03232e-14 4.12792 9.34933 0.904335 22.1688Z"/>
+<path id="panda_baby_16_fill" d="M 12.7143 24.8455C 19.7363 24.8455 25.4287 19.2837 25.4287 12.4228C 25.4287 5.56186 19.7363 2.42355e-06 12.7143 2.42355e-06C 5.69241 2.42355e-06 3.54348e-06 5.56186 3.54348e-06 12.4228C 3.54348e-06 19.2837 5.69241 24.8455 12.7143 24.8455Z"/>
+<path id="panda_baby_17_fill" d="M 3.57628 6.98851C 5.5514 6.98851 7.15254 5.42408 7.15254 3.49425C 7.15254 1.56443 5.5514 3.46221e-06 3.57628 3.46221e-06C 1.60116 3.46221e-06 -2.48044e-06 1.56443 -2.48044e-06 3.49425C -2.48044e-06 5.42408 1.60116 6.98851 3.57628 6.98851Z"/>
+<path id="panda_baby_18_fill" d="M 6.82743 13.3417C 10.5981 13.3417 13.6549 10.3551 13.6549 6.67085C 13.6549 2.98664 10.5981 -3.80844e-06 6.82743 -3.80844e-06C 3.05675 -3.80844e-06 -2.83478e-06 2.98664 -2.83478e-06 6.67085C -2.83478e-06 10.3551 3.05675 13.3417 6.82743 13.3417Z"/>
+<path id="panda_baby_19_fill" d="M 71.7496 26.9089C 71.7496 48.871 55.6879 66.6749 35.8748 66.6749C 16.0617 66.6749 0 48.871 0 26.9089C 0 4.94675 15.6641 0 35.4772 0C 55.2903 0 71.7496 4.94675 71.7496 26.9089Z"/>
+<path id="panda_baby_20_fill" d="M 34.2776 17.2656C 34.2776 26.8012 27.1241 24.6345 17.6586 24.6345C 8.19309 24.6345 0 26.8012 0 17.2656C 0 7.73008 7.67331 0 17.1388 0C 26.6043 0 34.2776 7.73008 34.2776 17.2656Z"/>
+<path id="panda_baby_21_fill" d="M 12.997 14.621C 12.997 20.3702 10.9945 21.9349 5.81465 21.9349C 0.634796 21.9349 5.22152 20.4602 5.22152 12.9655C 4.6818 6.90193 -3.4636 0 1.71625 0C 6.8961 0 12.997 7.12632 12.997 14.621Z"/>
+<path id="panda_baby_22_fill" d="M 7.35722 4.92511C 7.35722 7.64518 5.71025 9.85022 3.67861 9.85022C 1.64697 9.85022 0 7.64518 0 4.92511C 0 2.20505 1.64697 0 3.67861 0C 5.71025 0 7.35722 2.20505 7.35722 4.92511Z"/>
+<path id="panda_baby_23_fill" d="M 7.36213 4.92181C 7.36213 7.64006 5.71406 9.84363 3.68107 9.84363C 1.64807 9.84363 0 7.64006 0 4.92181C 0 2.20357 1.64807 0 3.68107 0C 5.71406 0 7.36213 2.20357 7.36213 4.92181Z"/>
+<path id="panda_baby_24_fill" d="M 7.34774 4.93138C 7.34774 7.65491 5.7029 9.86276 3.67387 9.86276C 1.64485 9.86276 0 7.65491 0 4.93138C 0 2.20785 1.64485 0 3.67387 0C 5.7029 0 7.34774 2.20785 7.34774 4.93138Z"/>
+<path id="panda_baby_25_fill" d="M 7.3452 4.93304C 7.3452 7.65748 5.70092 9.86607 3.6726 9.86607C 1.64428 9.86607 0 7.65748 0 4.93304C 0 2.2086 1.64428 0 3.6726 0C 5.70092 0 7.3452 2.2086 7.3452 4.93304Z"/>
+<path id="panda_baby_26_fill" d="M 7.35063 4.92943C 7.35063 7.65188 5.70514 9.85887 3.67532 9.85887C 1.6455 9.85887 0 7.65188 0 4.92943C 0 2.20698 1.6455 0 3.67532 0C 5.70514 0 7.35063 2.20698 7.35063 4.92943Z"/>
+<path id="panda_baby_27_fill" d="M 71.7496 26.9089C 71.7496 48.871 55.6879 66.6749 35.8748 66.6749C 16.0617 66.6749 0 48.871 0 26.9089C 0 4.94675 15.6641 2.62044e-11 35.4772 2.62044e-11C 55.2903 2.62044e-11 71.7496 4.94675 71.7496 26.9089Z"/>
+<path id="panda_baby_28_fill" d="M 34.2776 17.2656C 34.2776 26.8012 27.1241 24.6345 17.6586 24.6345C 8.19309 24.6345 0 26.8012 0 17.2656C 0 7.73008 7.67331 0 17.1388 0C 26.6043 0 34.2776 7.73008 34.2776 17.2656Z"/>
+<path id="panda_baby_29_fill" d="M 11.5953 14.2384C 11.5953 19.9876 9.59276 21.5523 4.41291 21.5523C 0.136053 20.9906 6.10052 20.7244 6.10052 13.2297C 5.5608 7.16614 -2.92624 0.000200919 1.06261 0C 6.24246 0 11.5953 6.74372 11.5953 14.2384Z"/>
+<path id="panda_baby_30_fill" d="M 13.9675 14.8425C 21.6808 14.8425 27.9321 16.2774 27.9321 10.4861C 27.9321 4.69479 21.6793 0 13.966 0C 6.25281 0 0 4.69479 0 10.4861C 0 16.2774 6.2543 14.8425 13.9675 14.8425Z"/>
+<path id="panda_baby_31_fill" d="M 13.9675 14.8425C 21.6808 14.8425 27.9321 16.2774 27.9321 10.4861C 27.9321 4.69479 21.6793 0 13.966 0C 6.25281 0 0 4.69479 0 10.4861C 0 16.2774 6.2543 14.8425 13.9675 14.8425Z"/>
+<path id="panda_baby_32_fill" d="M 3 6C 4.65685 6 6 4.68064 6 3.05314C 6 1.42564 4.65685 0 3 0C 1.34314 0 0 1.42564 0 3.05314C 0 4.68064 1.34314 6 3 6Z"/>
+<path id="panda_baby_33_fill" d="M 50.3123 23.1717C 50.3123 35.9691 39.0495 29.6294 25.1562 29.6294C 11.2628 29.6294 0 35.9691 0 23.1717C 0 10.3743 11.2628 0 25.1562 0C 39.0495 0 50.3123 10.3743 50.3123 23.1717Z"/>
+<path id="panda_baby_34_fill" fill-rule="evenodd" d="M 11.5664 23.7747C 19.3105 23.7747 23.3594 19.8496 23.3594 12.7874C 23.3594 5.7251 19.3105 -1.37991e-15 11.5664 7.2399e-32C 3.82275 1.37983e-15 -1.25542e-15 5.7251 0 12.7874C 1.25542e-15 19.8496 3.82275 23.7747 11.5664 23.7747ZM 11.5674 21.7385C 16.9883 21.7385 21.3823 17.731 21.3823 12.7874C 21.3823 7.84375 16.9883 3.83618 11.5674 3.83618C 6.14697 3.83618 1.75244 7.84375 1.75244 12.7874C 1.75244 17.731 6.14697 21.7385 11.5674 21.7385Z"/>
+<path id="panda_baby_35_fill" d="M 20.6198 7.83742C 20.6198 12.1659 16.0039 15.6748 10.3099 15.6748C 4.6159 15.6748 0 12.1659 0 7.83742C 0 3.50893 4.6159 0 10.3099 0C 16.0039 0 20.6198 3.50893 20.6198 7.83742Z"/>
+<path id="panda_baby_36_fill" d="M 7.6668 20.7317C 1.59238 13.6336 -0.666867 9.46544 0.166805 1.23168C 1 -0.651057 5 -0.151123 5.5 1.23161C 1.06706 9.2065 3.14723 13.3984 7.6668 20.7317Z"/>
+<path id="panda_baby_37_fill" d="M 46.8061 45.0848C 71.5439 20.7419 72.8663 9.82635 62.9482 3.70636C 43.917 -8.03124 13.0703 10.226 4.01461 28.9171C -5.04104 47.6082 1.51351 78.5735 20.746 84.4537C 39.9785 90.3339 29.471 62.1317 46.8061 45.0848Z"/>
+<path id="panda_baby_38_fill" d="M 0 13C 0 5.8203 5.8203 0 13 0L 20.8986 0C 28.0783 0 33.8986 5.8203 33.8986 13L 33.8986 53.7769C 33.8986 60.9566 28.0783 66.7769 20.8986 66.7769L 13 66.7769C 5.8203 66.7769 0 60.9566 0 53.7769L 0 13Z"/>
+<path id="panda_baby_39_fill" d="M 0 13C 0 5.8203 5.8203 0 13 0L 17 0C 24.1797 0 30 5.8203 30 13L 30 52C 30 59.1797 24.1797 65 17 65L 13 65C 5.8203 65 0 59.1797 0 52L 0 13Z"/>
+<path id="panda_baby_40_fill" fill-rule="evenodd" d="M 0 0L 0 20C 3.97877e-16 27.1799 5.82031 33 13 33L 15.0005 33C 22.1802 33 28.0005 27.1799 28.0005 20L 28.0005 0L 0 0Z"/>
+<path id="panda_baby_41_fill" fill-rule="evenodd" d="M 7.59814 3.8926e-32C 5.91992 3.60444e-16 4.55908 1.3606 4.55908 3.03906L 4.55908 8.81494L 2.93799 8.81494C 1.31543 8.81494 -4.12496e-18 10.1304 0 11.7532C 4.12434e-18 13.3757 1.31543 14.6912 2.93799 14.6912L 12.2578 14.6912C 13.8804 14.6912 15.1958 13.3757 15.1958 11.7532C 15.1958 10.1304 13.8804 8.81494 12.2578 8.81494L 10.6372 8.81494L 10.6372 3.03906C 10.6372 1.3606 9.27686 -3.60549e-16 7.59814 3.8926e-32Z"/>
+<path id="panda_baby_42_stroke" d="M 0 0L 13 0L 13 -1L 0 -1L 0 0Z"/>
+<path id="panda_baby_43_fill" d="M 0 4.00661C 0 1.79382 1.79382 0 4.00661 0L 18.2028 0C 20.4156 0 22.2094 1.79382 22.2094 4.00661L 22.2094 4.00661C 22.2094 6.2194 20.4156 8.01322 18.2028 8.01322L 4.00661 8.01322C 1.79382 8.01322 0 6.2194 0 4.00661L 0 4.00661Z"/>
+</defs>
+</svg>

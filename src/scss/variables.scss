@@ -1,0 +1,37 @@
+/* Colors */
+$color-main: #95D968;
+$color-main--bamboo: #99CF76;
+$color-main--baby: #96DB69;
+$color-main--book: #A1E376;
+$color-light: #ffffff;
+
+$color-text: #ffffff;
+$color-text-contrast: #697175;
+
+$color-sky: #B0E7F9;
+
+$bg-text-1: #4FA688;
+$bg-text-2: #D46C7F;
+$bg-text-3: #62909E;
+$bg-header: rgba(167, 224, 130, 0.9);
+
+$range-shadow: #D4EE72;
+$bg-range: rgba(255, 255, 255, 0);
+
+@font-face {
+  font-family: ProximaNovaExbold;
+  src: url(../fonts/proxima-nova-ex-bold.otf);
+}
+
+@font-face {
+  font-family: ProximaNovaRegular;
+  src: url(../fonts/proxima-nova-regular.otf);
+}
+
+$proxima-nova-ex-bold: "ProximaNovaExbold", Helvetica, Arial, monospace;
+$proxima-nova-regular: "ProximaNovaRegular", Helvetica, Arial, monospace;
+
+$font-h1: 50px/50px $proxima-nova-ex-bold;
+$font-h2: 30px/40px $proxima-nova-ex-bold;
+$font-main: 18px/22px $proxima-nova-regular;
+$font-btn: 20px/22px $proxima-nova-ex-bold;

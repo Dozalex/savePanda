@@ -1,0 +1,68 @@
+.mountains {
+  position: relative;
+  top: -280px;
+  margin-bottom: -50px;
+
+  & div {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  &__item-dark {
+    background: url(../img/mountains-dark.svg) repeat-x;
+  }
+
+  &__item-light {
+    margin-top: 130px;
+    background: url(../img/mountains-light.svg) repeat-x;
+  }
+
+  & svg {
+    position: absolute;
+  }
+}
+
+.cloud {
+  &--sm {
+    height: 30px;
+  }
+  &--md {
+    height: 40px;
+  }
+  &--lg {
+    height: 50px;
+  }
+
+  &--1 {
+    top: 0;
+    left: -200px;
+    animation: cloud 15s infinite linear;
+  }
+  &--2 {
+    top: 80px;
+    left: -200px;
+    animation: cloud 22s infinite linear;
+  }
+  &--3 {
+    top: 120px;
+    left: -200px;
+    animation: cloud 17s infinite linear;
+  }
+  &--4 {
+    top: 150px;
+    left: -200px;
+    animation: cloud 20s infinite linear;
+  }
+  &--5 {
+    top: 200px;
+    left: -200px;
+    animation: cloud 19s infinite linear;
+  }
+}
+
+@keyframes cloud {
+  0%   { transform: translateX(-200px); }
+  100%   { transform: translateX(120vw); }
+}

@@ -1,0 +1,27 @@
+.do-you-know {
+  padding-top: 100px;
+  background: $color-sky; // for older browsers
+  background: linear-gradient(to top, rgba(176, 231, 249, 0.1), $color-sky);
+
+  .section__content {
+    max-width: 760px;
+
+    * {
+      color: $color-text-contrast;
+    }
+  }
+}
+
+.bg-clouds {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 200px 0 450px 0;
+  background-image: url(../img/clouds.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.main-title {
+  font-size: 60px;
+}

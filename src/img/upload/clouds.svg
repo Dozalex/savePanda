@@ -1,0 +1,60 @@
+<svg width="1239" height="579" viewBox="0 0 1239 579" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Clouds</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(6341 -359)">
+<g id="Clouds">
+<g id="Clouds">
+<g id="Subtract">
+<use xlink:href="#path0_fill" transform="translate(-6262 479)" fill="url(#paint0_linear)" fill-opacity="0.4"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#path1_fill" transform="translate(-6341 515)" fill="url(#paint1_linear)" fill-opacity="0.4"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#path2_fill" transform="translate(-5787 359)" fill="url(#paint2_linear)" fill-opacity="0.4"/>
+</g>
+<g id="Subtract">
+<use xlink:href="#path3_fill" transform="translate(-5856 390)" fill="url(#paint3_linear)" fill-opacity="0.4"/>
+</g>
+</g>
+<g id="cloud">
+<use xlink:href="#path4_fill" transform="translate(-5489 843)" fill="url(#paint4_linear)" fill-opacity="0.4"/>
+</g>
+<g id="cloud">
+<use xlink:href="#path5_fill" transform="translate(-5363 462)" fill="url(#paint5_linear)" fill-opacity="0.4"/>
+</g>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.45944e-14 87 -238.345 5.32721e-15 238.345 -5.32721e-15)">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.27364e-14 56 -208 3.42901e-15 208 -3.42901e-15)">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.49245e-14 103 -243.735 6.30693e-15 243.735 -6.30693e-15)">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.03483e-14 59 -169 3.61271e-15 169 -3.61271e-15)">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint4_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.53693e-14 95 -251 5.81707e-15 251 -5.81707e-15)">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<linearGradient id="paint5_linear" x1="0" y1="0" x2="1" y2="0" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.59816e-14 91.4194 -261 5.59782e-15 261 17.5806)">
+<stop offset="0" stop-color="#FFFFFF"/>
+<stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+</linearGradient>
+<path id="path0_fill" fill-rule="evenodd" d="M 238.345 87L 0 87C 4.80029 63.4881 21.9971 46.0887 42.4761 46.0887C 44.1592 46.0887 45.8208 46.2063 47.4546 46.4352C 57.4346 19.105 80.2656 0 106.834 0C 133.728 0 156.792 19.575 166.574 47.4412C 170.132 46.8563 173.788 46.5518 177.516 46.5518C 205.187 46.5518 228.836 63.322 238.345 87Z"/>
+<path id="path1_fill" fill-rule="evenodd" d="M 208 56L 0 56C 4.18896 40.8659 19.1968 29.6663 37.0684 29.6663C 38.5376 29.6663 39.9873 29.742 41.4131 29.8893C 50.1226 12.2974 70.0469 0 93.2329 0C 116.703 0 136.83 12.6 145.367 30.5369C 148.472 30.1603 151.663 29.9644 154.917 29.9644C 179.063 29.9644 199.703 40.759 208 56Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 243.735 103L 0.0517578 103C 0.0175781 102.118 0 101.231 0 100.339C 0 70.3775 19.6143 46.0888 43.8101 46.0888C 45.4932 46.0888 47.1548 46.2063 48.7886 46.4352C 58.7686 19.105 81.5996 0 108.168 0C 135.062 0 158.126 19.575 167.908 47.4411C 171.466 46.8562 175.122 46.5517 178.85 46.5517C 212.423 46.5517 240.078 71.2398 243.735 103Z"/>
+<path id="path3_fill" fill-rule="evenodd" d="M 169 59L 0.0361328 59C 0.012207 58.495 0 57.9868 0 57.4758C 0 40.3133 13.6001 26.4004 30.377 26.4004C 31.5439 26.4004 32.6958 26.4677 33.8286 26.5988C 40.7485 10.9436 56.5791 0 75.001 0C 93.6484 0 109.64 11.2129 116.423 27.1751C 118.89 26.84 121.425 26.6656 124.011 26.6656C 147.289 26.6656 166.464 40.8073 169 59Z"/>
+<path id="path4_fill" fill-rule="evenodd" d="M 251 95L 0.0532227 95C 0.0175781 94.1869 0 93.3687 0 92.5458C 0 64.9113 20.1992 42.509 45.1162 42.509C 46.8496 42.509 48.5601 42.6175 50.2427 42.8286C 60.52 17.6212 84.0322 0 111.393 0C 139.088 0 162.839 18.0546 172.914 43.7563C 176.577 43.2169 180.342 42.9361 184.181 42.9361C 218.754 42.9361 247.234 65.7067 251 95Z"/>
+<path id="path5_fill" fill-rule="evenodd" d="M 261 109L 0.0556641 109C 0.019043 108.218 0 107.43 0 106.638C 0 80.0453 21.0039 58.4875 46.9136 58.4875C 47.5796 58.4875 48.2427 58.5018 48.9019 58.53C 57.4502 24.9059 88.3726 0 125.209 0C 162.399 0 193.561 25.3857 201.756 59.4993C 232.959 63.1961 257.462 83.5374 261 109Z"/>
+</defs>
+</svg>

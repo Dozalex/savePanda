@@ -1,0 +1,11 @@
+<svg width="120" height="35" viewBox="0 0 120 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(6426 -1329)">
+<g id="cloud_5">
+<use xlink:href="#cloud2_path0_fill" transform="matrix(1 1.56802e-16 -2.02009e-16 1 -6425.72 1329.08)" fill="#FFFFFF" fill-opacity="0.5"/>
+</g>
+</g>
+<defs>
+<path id="cloud2_path0_fill" fill-rule="evenodd" d="M 118.763 34.283L 0 34.283C 2.64209 23.5811 14.5762 15.5037 28.8994 15.5037C 33.3394 15.5037 37.5493 16.2798 41.3247 17.6697C 46.0596 7.22021 56.186 1.8389e-15 67.9136 1.20421e-31C 80.0923 -1.90964e-15 90.5435 7.78613 95.0244 18.8892C 95.3105 18.8792 95.5981 18.874 95.8867 18.874C 106.089 18.874 114.865 25.204 118.763 34.283Z"/>
+</defs>
+</svg>

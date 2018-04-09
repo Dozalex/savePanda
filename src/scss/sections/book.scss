@@ -1,0 +1,12 @@
+.book {
+  padding: 100px 0 260px 0;
+  background: linear-gradient(to bottom, $color-main--baby, $color-main--book);
+
+  .section__content {
+    max-width: 1000px;
+  }
+
+  .section__text-bg {
+    background: $bg-text-3;
+  }
+}
