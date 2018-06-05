@@ -9,20 +9,20 @@
         }
 
         <!--hand-->
-        #panda_hello_433_fill {
-        transform-origin: 60px 80px;
+        #panda_hello_433 {
+        transform-origin: 70px 80px;
         animation: hand 1s infinite alternate ease;
         }
 
         <!--fingers-->
-         #panda_hello_434_fill,
-        #panda_hello_435_fill, #panda_hello_437_fill,
-        #panda_hello_439_fill, #panda_hello_436_fill {
-        transform-origin: 50px 80px;
+        #panda_hello_434,
+        #panda_hello_435, #panda_hello_437,
+        #panda_hello_439, #panda_hello_436 {
+        transform-origin: 40px 75px;
         animation: hand 1s infinite alternate ease;
         }
-        #panda_hello_438_fill {
-        transform-origin: 35px 85px;
+        #panda_hello_438 {
+        transform-origin: 40px 80px;
         animation: hand 1s infinite alternate ease;
         }
 
@@ -32,7 +32,7 @@
         }
 
         <!--left ear-->
-        #panda_hello_413_fill {
+        #panda_hello_413 {
         transform-origin: 20% 30%;
         animation: ear-left 3.5s infinite ease;
         }
@@ -45,7 +45,7 @@
         }
 
         <!--right ear-->
-        #panda_hello_415_fill {
+        #panda_hello_right_ear {
         transform-origin: 20% 30%;
         animation: ear-right 3.5s infinite ease;
         }
@@ -58,22 +58,20 @@
         }
 
         <!--leaves-->
-        #panda_hello_214_fill, #panda_hello_215_fill,
-        #panda_hello_395_fill, #panda_hello_394_fill,
-        #panda_hello_377_fill, #panda_hello_376_fill,
-        #panda_hello_396_fill, #panda_hello_397_fill,
-        #panda_hello_398_fill, #panda_hello_399_fill,
-        #panda_hello_378_fill {
+        #panda_hello_395, #panda_hello_394,
+        #panda_hello_377, #panda_hello_376,
+        #panda_hello_396, #panda_hello_397,
+        #panda_hello_378 {
         transform-origin: left;
         animation: leaf 1.5s infinite alternate ease-in;
         }
 
-        #panda_hello_1_fill, #panda_hello_2_fill,
-        #panda_hello_206_fill, #panda_hello_207_fill,
-        #panda_hello_208_fill, #panda_hello_209_fill,
-        #panda_hello_210_fill, #panda_hello_211_fill,
-        #panda_hello_170_fill, #panda_hello_173_fill,
-        #panda_hello_174_fill, #panda_hello_175_fill
+        #panda_hello_1, #panda_hello_2, #panda_hello_214, #panda_hello_215, #panda_hello_398, #panda_hello_399,
+        #panda_hello_206, #panda_hello_207,
+        #panda_hello_208, #panda_hello_209,
+        #panda_hello_210, #panda_hello_211,
+        #panda_hello_170, #panda_hello_173,
+        #panda_hello_174, #panda_hello_175
         {
         transform-origin: right;
         animation: leaf 1.6s infinite alternate ease-in;
@@ -104,10 +102,10 @@
 <use xlink:href="#panda_hello_0_fill" transform="translate(-7138 956.864)" fill="#4F4F4F" fill-opacity="0.1"/>
 </g>
 <g id="Bamboo">
-<g id="Vector">
+<g id="panda_hello_1">
 <use xlink:href="#panda_hello_1_fill" transform="translate(-7141.7 751.557)" fill="#91CE6A"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_2">
 <use xlink:href="#panda_hello_2_fill" transform="translate(-7141.69 752.56)" fill="#80B25F"/>
 </g>
 <g id="Vector">
@@ -611,7 +609,7 @@
 <g id="Vector">
 <use xlink:href="#panda_hello_169_fill" transform="matrix(-0.880714 0.473649 -0.619092 -0.785319 -7106.6 693.559)" fill="#7CAF5B"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_170">
 <use xlink:href="#panda_hello_170_fill" transform="matrix(-0.880714 0.473649 -0.619092 -0.785319 -7106.58 693.538)" fill="#80B25F"/>
 </g>
 <g id="Vector">
@@ -620,13 +618,13 @@
 <g id="Vector">
 <use xlink:href="#panda_hello_172_fill" transform="matrix(0.992849 0.119381 0.17358 -0.98482 -7107.36 706.746)" fill="#98D670"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_173">
 <use xlink:href="#panda_hello_173_fill" transform="matrix(0.609701 -0.792631 -0.885486 -0.464666 -7109.79 720.072)" fill="#80B25F"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_174">
 <use xlink:href="#panda_hello_174_fill" transform="matrix(-0.880714 0.473649 -0.619092 -0.785319 -7117.16 699.323)" fill="#91CE6A"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_175">
 <use xlink:href="#panda_hello_175_fill" transform="matrix(-0.880714 0.473648 -0.619092 -0.785318 -7117.36 699.056)" fill="#80B25F"/>
 </g>
 <g id="Vector">
@@ -719,22 +717,22 @@
 <g id="Vector">
 <use xlink:href="#panda_hello_205_fill" transform="translate(-7102.73 737.908)" fill="#80B25F"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_206">
 <use xlink:href="#panda_hello_206_fill" transform="translate(-7151.13 741.948)" fill="#91CE6A"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_207">
 <use xlink:href="#panda_hello_207_fill" transform="translate(-7151.12 741.962)" fill="#80B25F"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_208">
 <use xlink:href="#panda_hello_208_fill" transform="translate(-7098.42 735.731)" fill="#91CE6A"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_209">
 <use xlink:href="#panda_hello_209_fill" transform="translate(-7096.61 735.771)" fill="#80B25F"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_210">
 <use xlink:href="#panda_hello_210_fill" transform="translate(-7128.05 735.643)" fill="#91CE6A"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_211">
 <use xlink:href="#panda_hello_211_fill" transform="translate(-7128.05 736.998)" fill="#80B25F"/>
 </g>
 <g id="Vector">
@@ -743,10 +741,10 @@
 <g id="Vector">
 <use xlink:href="#panda_hello_213_fill" transform="matrix(-1 0 0 1 -7058.83 832.619)" fill="#80B25F"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_214">
 <use xlink:href="#panda_hello_214_fill" transform="matrix(-0.742987 0.669306 0.641873 0.766811 -7141.9 796.948)" fill="#91CE6A"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_215">
 <use xlink:href="#panda_hello_215_fill" transform="matrix(-0.742987 0.669306 0.641873 0.766811 -7141.91 796.931)" fill="#80B25F"/>
 </g>
 <g id="Vector">
@@ -1229,13 +1227,13 @@
 <g id="Vector">
 <use xlink:href="#panda_hello_375_fill" transform="matrix(-1 0 0 1 -7101.31 754.579)" fill="#A9D979"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_376">
 <use xlink:href="#panda_hello_376_fill" transform="matrix(-0.934598 0.355705 0.196841 0.980435 -7141.57 845.207)" fill="#91CE6A"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_377">
 <use xlink:href="#panda_hello_377_fill" transform="matrix(-0.934598 0.355706 0.19684 0.980436 -7141.5 845.578)" fill="#80B25F"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_378">
 <use xlink:href="#panda_hello_378_fill" transform="matrix(-0.934598 0.355706 0.19684 0.980436 -7133.37 835.148)" fill="#80B25F"/>
 </g>
 <g id="Vector">
@@ -1283,22 +1281,22 @@
 <g id="Vector">
 <use xlink:href="#panda_hello_393_fill" transform="matrix(-0.999503 -0.0315204 -0.0463407 0.998926 -7117.77 797.832)" fill="#80B25F"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_394">
 <use xlink:href="#panda_hello_394_fill" transform="matrix(-0.934598 0.355706 0.19684 0.980436 -7143.58 842.218)" fill="#91CE6A"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_395">
 <use xlink:href="#panda_hello_395_fill" transform="matrix(-0.934598 0.355706 0.19684 0.980436 -7143.61 842.392)" fill="#80B25F"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_396">
 <use xlink:href="#panda_hello_396_fill" transform="matrix(-0.876368 0.481642 0.574583 0.818447 -7132.54 834.04)" fill="#91CE6A"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_397">
 <use xlink:href="#panda_hello_397_fill" transform="matrix(-0.876368 0.481642 0.574582 0.818447 -7134.14 835.063)" fill="#80B25F"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_398">
 <use xlink:href="#panda_hello_398_fill" transform="matrix(-0.934598 0.355706 0.196841 0.980436 -7112.53 814.985)" fill="#91CE6A"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_399">
 <use xlink:href="#panda_hello_399_fill" transform="matrix(-0.934598 0.355705 0.196841 0.980436 -7112.49 815.337)" fill="#80B25F"/>
 </g>
 <g id="Vector">
@@ -1349,7 +1347,7 @@
 </g>
 <g id="ears">
 <g id="left_ear">
-<g id="left ear">
+<g id="panda_hello_413">
 <use xlink:href="#panda_hello_413_fill" transform="translate(-7067 665)" fill="#383D42"/>
 </g>
 <g id="left ear">
@@ -1357,7 +1355,7 @@
 </g>
 </g>
 <g id="right_ear">
-<g id="right ear">
+<g id="panda_hello_right_ear">
 <use xlink:href="#panda_hello_415_fill" transform="translate(-6934.68 665)" fill="#383D42"/>
 </g>
 <g id="left ear">
@@ -1427,25 +1425,25 @@
 <use xlink:href="#panda_hello_432_fill" transform="matrix(-0.92277 -0.385352 0.386129 -0.922445 -6885.5 925.569)" fill="#383D42"/>
 </g>
 <g id="panda_hello_left_hand">
-<g id="Vector">
+<g id="panda_hello_433">
 <use xlink:href="#panda_hello_433_fill" transform="matrix(0.969812 -0.243855 0.243855 0.969812 -7115 779.832)" fill="#383D42"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_434">
 <use xlink:href="#panda_hello_434_fill" transform="matrix(0.969812 -0.243856 0.243855 0.969812 -7103.88 786.284)" fill="#5B6167"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_435">
 <use xlink:href="#panda_hello_435_fill" transform="matrix(0.969812 -0.243856 0.243854 0.969812 -7097.98 781.248)" fill="#5B6167"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_436">
 <use xlink:href="#panda_hello_436_fill" transform="matrix(0.969812 -0.243855 0.243855 0.969812 -7090.95 779.519)" fill="#5B6167"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_437">
 <use xlink:href="#panda_hello_437_fill" transform="matrix(0.969812 -0.243855 0.243855 0.969812 -7102.25 792.76)" fill="#5B6167"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_438">
 <use xlink:href="#panda_hello_438_fill" transform="matrix(0.906351 -0.422526 0.422526 0.906351 -7099.47 796.385)" fill="#999DA1"/>
 </g>
-<g id="Vector">
+<g id="panda_hello_439">
 <use xlink:href="#panda_hello_439_fill" transform="matrix(0.969812 -0.243856 0.243854 0.969812 -7084.13 781.426)" fill="#5B6167"/>
 </g>
 </g>

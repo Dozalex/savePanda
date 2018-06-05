@@ -8,7 +8,7 @@
         }
 
         <!--pandaCloud-->
-        #panda_book_31_fill {
+        #panda_book_31 {
         animation: pandaCloudSmall 8s infinite ease;
         }
         @keyframes pandaCloudSmall {
@@ -18,7 +18,7 @@
         100%   { opacity: 0; }
         }
 
-        #panda_book_30_fill {
+        #panda_book_30 {
         opacity: 0;
         animation: pandaCloudBig 8s infinite ease;
         }
@@ -61,7 +61,7 @@
         }
 
         <!--eyes-->
-        #panda_book_23_fill, #panda_book_19_fill {
+        #panda_book_23, #panda_book_19 {
         animation: eyes 0.3s infinite linear;
         }
         @keyframes eyes {
@@ -72,14 +72,15 @@
         }
 
         <!--leaf of book-->
-        #panda_book_28_fill {
+        #panda_book_leaf {
+        transform-origin: left;
         animation: leafBook 2s infinite alternate ease;
         }
         @keyframes leafBook {
         0%   { transform: rotateY(0); }
         25%   { transform: rotateY(0); }
-        75%   { transform: rotateY(-180deg); }
-        100%   { transform: rotateY(-180deg); }
+        75%   { transform: rotateY(-180deg) rotate(-15deg); }
+        100%   { transform: rotateY(-180deg) rotate(-15deg); }
         }
     </style>
 <g id="Canvas" transform="translate(6646 -3005)">
@@ -151,7 +152,7 @@
 <g id="Vector">
 <use xlink:href="#panda_book_18_fill" transform="translate(-6539.97 3138.47)" fill="#FFFFFF"/>
 </g>
-<g id="Vector">
+<g id="panda_book_19">
 <use xlink:href="#panda_book_19_fill" transform="translate(-6534.17 3129.77)" fill="#FFFFFF"/>
 </g>
 <g id="Vector">
@@ -163,7 +164,7 @@
 <g id="Vector">
 <use xlink:href="#panda_book_22_fill" transform="translate(-6466.51 3138.47)" fill="#FFFFFF"/>
 </g>
-<g id="Vector">
+<g id="panda_book_23">
 <use xlink:href="#panda_book_23_fill" transform="translate(-6460.71 3129.77)" fill="#FFFFFF"/>
 </g>
 </g>
@@ -181,7 +182,7 @@
 <g id="Union">
 <use xlink:href="#panda_book_27_fill" transform="matrix(0.980841 0.194811 -0.194568 0.980889 -6420.36 3325.93)" fill="#FCF8ED"/>
 </g>
-<g id="Rectangle">
+<g id="panda_book_leaf">
 <use xlink:href="#panda_book_28_fill" transform="matrix(0.980841 0.194811 -0.194568 0.980889 -6366.33 3336.63)" fill="#FFFFFF"/>
 </g>
 <g id="Line">
@@ -190,10 +191,10 @@
 </g>
 </g>
 <g id="thoughts">
-<g id="Ellipse 2">
+<g id="panda_book_30">
 <use xlink:href="#panda_book_30_fill" transform="translate(-6349.55 3005)" fill="#FFFFFF"/>
 </g>
-<g id="Ellipse 2.1">
+<g id="panda_book_31">
 <use xlink:href="#panda_book_31_fill" transform="translate(-6387.25 3108.49)" fill="#FFFFFF"/>
 </g>
 <g id="panda_book_panda" opacity="0.4">

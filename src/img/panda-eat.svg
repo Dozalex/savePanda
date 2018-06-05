@@ -14,13 +14,13 @@
         }
 
         <!--bamboo-->
-        #panda_eat_41_fill, #panda_eat_42_fill,
-        #panda_eat_39_fill, #panda_eat_40_fill,
-        #panda_eat_32_fill, #panda_eat_33_fill
+        #panda_eat_41, #panda_eat_42,
+        #panda_eat_39, #panda_eat_40,
+        #panda_eat_32, #panda_eat_33
         {
         animation: leaf_2 1s infinite alternate ease;
         }
-        #panda_eat_30_fill, #panda_eat_31_fill
+        #panda_eat_30, #panda_eat_31
         {
         transform-origin: right;
         animation: leaf_2 1s infinite alternate ease;
@@ -28,13 +28,13 @@
 
         @keyframes leaf_2 {
         0%   { transform: rotate(0deg); }
-        100%   { transform: rotate(25deg); }
+        100%   { transform: rotate(15deg); }
         }
 
-        #panda_eat_27_stroke, #panda_eat_bamboo_small,
-        #panda_eat_45_fill, #panda_eat_46_fill,
-        #panda_eat_37_fill, #panda_eat_38_fill,
-        #panda_eat_35_fill, #panda_eat_36_fill
+        #panda_eat_27, #panda_eat_bamboo_small,
+        #panda_eat_45, #panda_eat_46,
+        #panda_eat_37, #panda_eat_38,
+        #panda_eat_35, #panda_eat_36
         {
         transform-origin: bottom;
         animation: leaf_2_stroke 1s infinite alternate ease;
@@ -59,26 +59,26 @@
         }
 
         <!--hand-right-->
-        #panda_eat_43_fill
+        #panda_eat_right_hand
         {
-        transform-origin: bottom;
+        transform-origin: top;
         animation: hand_2_tummy 6s infinite ease;
         }
 
         @keyframes hand_2_tummy {
         0%   { transform: rotate(0deg); }
-        25%   { transform: rotate(45deg) translate(-5px, -10px); }
-        35%   { transform: rotate(55deg) translate(5px, -8px); }
-        45%   { transform: rotate(44deg) translate(-4px, -11px); }
-        55%   { transform: rotate(54deg) translate(4px, -9px); }
-        65%   { transform: rotate(46deg) translate(-6px, -9px); }
-        75%   { transform: rotate(56deg) translate(4px, -7px); }
-        85%   { transform: rotate(42deg); translate(-5px, -10px); }
+        25%   { transform: rotate(45deg) translate(-5px, 10px); }
+        35%   { transform: rotate(40deg) translate(-7px, 10px); }
+        45%   { transform: rotate(45deg) translate(-8px, 10px); }
+        55%   { transform: rotate(40deg) translate(-6px, 10px); }
+        65%   { transform: rotate(45deg) translate(-5px, 10px); }
+        75%   { transform: rotate(40deg) translate(-5px, 10px); }
+        85%   { transform: rotate(45deg) translate(-5px, 10px); }
         100%   { transform: rotate(0); }
         }
 
         <!--eye and near-->
-        #panda_eat_16_fill, #panda_eat_9_fill, #panda_eat_6_fill, #panda_eat_5_fill, #panda_eat_4_fill {
+        #panda_eat_16, #panda_eat_9, #panda_eat_6, #panda_eat_5, #panda_eat_4 {
         transform-origin: center;
         animation: eye_2 1s infinite alternate ease;
         }
@@ -105,14 +105,14 @@
 <g id="body">
 <use xlink:href="#panda_eat_3_fill" transform="translate(-6507.33 1784.85)" fill="#E2E2E2"/>
 </g>
-<g id="body">
+<g id="panda_eat_4">
 <use xlink:href="#panda_eat_4_fill" transform="translate(-6490.62 1793.69)" fill="#FFFFFF"/>
 </g>
 </g>
-<g id="left ear">
+<g id="panda_eat_5">
 <use xlink:href="#panda_eat_5_fill" transform="translate(-6505.01 1647.88)" fill="#383D42"/>
 </g>
-<g id="right ear">
+<g id="panda_eat_6">
 <use xlink:href="#panda_eat_6_fill" transform="translate(-6379.85 1645)" fill="#383D42"/>
 </g>
 <g id="head_eating_panda">
@@ -124,7 +124,7 @@
 </g>
 </g>
 <g id="left_eye">
-<g id="Vector">
+<g id="panda_eat_9">
 <use xlink:href="#panda_eat_9_fill" transform="translate(-6500.6 1709.81)" fill="#383D42"/>
 </g>
 <g id="Vector">
@@ -149,7 +149,7 @@
 </g>
 </g>
 <g id="right_eye">
-<g id="Vector">
+<g id="panda_eat_16">
 <use xlink:href="#panda_eat_16_fill" transform="translate(-6415.3 1709.81)" fill="#383D42"/>
 </g>
 <g id="Vector">
@@ -184,7 +184,7 @@
 <g id="Vector">
 <use xlink:href="#panda_eat_26_fill" transform="matrix(0.708639 0.705724 0.677057 -0.735777 -6477.34 1784.77)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_27">
 <use xlink:href="#panda_eat_27_stroke" transform="matrix(0.728724 0.68497 0.692197 -0.721556 -6458.59 1788.75)" fill="#74BD5B"/>
 </g>
 <g id="Vector">
@@ -193,43 +193,43 @@
 <g id="Vector">
 <use xlink:href="#panda_eat_29_fill" transform="matrix(0.728724 0.684971 0.692196 -0.721557 -6462 1799.45)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_30">
 <use xlink:href="#panda_eat_30_fill" transform="matrix(0.728723 0.684971 0.692196 -0.721557 -6465.46 1773.98)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_31">
 <use xlink:href="#panda_eat_31_fill" transform="matrix(0.728723 0.684971 0.692196 -0.721557 -6465.38 1774.01)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_32">
 <use xlink:href="#panda_eat_32_fill" transform="matrix(0.128413 0.991682 0.992974 -0.118679 -6453.62 1795.88)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_33">
 <use xlink:href="#panda_eat_33_fill" transform="matrix(0.128412 0.991682 0.992974 -0.11868 -6453.42 1795.99)" fill="#74BD5B"/>
 </g>
 <g id="Vector">
 <use xlink:href="#panda_eat_34_stroke" transform="matrix(0.128412 0.991682 0.992974 -0.11868 -6448.61 1785.14)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_35">
 <use xlink:href="#panda_eat_35_fill" transform="matrix(0.128413 0.991682 0.992974 -0.11868 -6465.22 1797.19)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_36">
 <use xlink:href="#panda_eat_36_fill" transform="matrix(0.128412 0.991682 0.992974 -0.11868 -6465.1 1798.12)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_37">
 <use xlink:href="#panda_eat_37_fill" transform="matrix(0.128412 0.991682 0.992974 -0.11868 -6453.62 1792.3)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_38">
 <use xlink:href="#panda_eat_38_fill" transform="matrix(0.12841 0.991682 0.992973 -0.118682 -6453.59 1792.38)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_39">
 <use xlink:href="#panda_eat_39_fill" transform="matrix(0.128413 0.991682 0.992974 -0.118678 -6444.11 1792.44)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_40">
 <use xlink:href="#panda_eat_40_fill" transform="matrix(0.128412 0.991682 0.992974 -0.11868 -6444.13 1792.63)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_41">
 <use xlink:href="#panda_eat_41_fill" transform="matrix(0.128412 0.991682 0.992974 -0.11868 -6436.15 1784.35)" fill="#74BD5B"/>
 </g>
-<g id="Vector">
+<g id="panda_eat_42">
 <use xlink:href="#panda_eat_42_fill" transform="matrix(0.128412 0.991682 0.992974 -0.11868 -6436.1 1784.64)" fill="#74BD5B"/>
 </g>
 </g>
@@ -239,10 +239,10 @@
 <g id="panda_eat_left_hand">
 <use xlink:href="#panda_eat_44_fill" transform="translate(-6512.83 1772.44)" fill="#383D42"/>
 </g>
-<g id="leaf_bamboo_two">
+<g id="panda_eat_45">
 <use xlink:href="#panda_eat_45_fill" transform="matrix(0.754438 0.656372 0.688376 -0.725354 -6474.21 1803.13)" fill="#74BD5B"/>
 </g>
-<g id="leaf_bamboo_one">
+<g id="panda_eat_46">
 <use xlink:href="#panda_eat_46_fill" transform="matrix(0.754438 0.656372 0.688376 -0.725353 -6474.21 1803.15)" fill="#74BD5B"/>
 </g>
 </g>
