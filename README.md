@@ -1,3 +1,4 @@
 # Save Panda
 Animating svg with css
-- Demo: https://dozalex.github.io/savePanda/
+- Design: https://www.behance.net/gallery/66442081/Lets-save-panda-Landing-page
+- Realization: https://dozalex.github.io/savePanda/
