@@ -1,7 +1,7 @@
 'use strict';
 
-var gulp = require('gulp'),
-  sass = require('gulp-sass'),
+const gulp = require('gulp'),
+  sass = require('gulp-sass')(require('sass')),
   myth = require('gulp-myth'),
   rigger = require('gulp-rigger'),
   svgInject = require('gulp-svg-inject'),
@@ -13,8 +13,9 @@ var gulp = require('gulp'),
   notify = require('gulp-notify'),
   del = require('del');
 
-gulp.task('clean', function () {
-  return del('dist/');
+gulp.task('clean', function (cb) {
+    del('dist/');
+    cb();
 });
 
 gulp.task('scss', function () {
@@ -75,13 +76,14 @@ gulp.task('build', gulp.series(
   'clean', 'html', 'js', 'scss', 'img', 'fonts')
 );
 
-gulp.task('watch', function () {
+gulp.task('watch', function (cb) {
   gulp.watch('src/scss/**/*.scss', gulp.series('scss'));
   gulp.watch('src/html/**/*.*', gulp.series('html'));
   gulp.watch('src/js/**/*.*', gulp.series('js'));
   gulp.watch('src/img/upload/**/*.*', gulp.series('img'));
   gulp.watch('src/img/*.*', gulp.series('html')); // svg
   gulp.watch('src/fonts/**/*.*', gulp.series('fonts'));
+  cb();
 });
 
 gulp.task('dev', gulp.series('build', 'watch'));
