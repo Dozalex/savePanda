@@ -6,7 +6,7 @@ const gulp = require('gulp'),
   rigger = require('gulp-rigger'),
   svgInject = require('gulp-svg-inject'),
   newer = require('gulp-newer'),
-  cssmin = require('gulp-cssmin'),
+  cleanCSS = require('gulp-clean-css'),
   uglify = require('gulp-uglify'),
   htmlmin = require('gulp-htmlmin'),
   imagemin = require('gulp-imagemin'),
@@ -28,7 +28,7 @@ gulp.task('scss', function () {
       }
     }))
     .pipe(myth())
-    .pipe(cssmin())
+    .pipe(cleanCSS())
     .pipe(gulp.dest('dist/css'));
 });
 

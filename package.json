@@ -13,7 +13,7 @@
   "devDependencies": {
     "del": "^6.1.1",
     "gulp": "^4.0.2",
-    "gulp-cssmin": "^0.2.0",
+    "gulp-clean-css": "^4.3.0",
     "gulp-debug": "^4.0.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^7.1.0",
