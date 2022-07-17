@@ -2,9 +2,9 @@
 
 const gulp = require('gulp'),
   sass = require('gulp-sass')(require('sass')),
-  myth = require('gulp-myth'),
+  autoprefixer = require('gulp-autoprefixer'),
   rigger = require('gulp-rigger'),
-  svgInject = require('gulp-svg-inject'),
+  embedSvg = require('gulp-embed-svg'),
   newer = require('gulp-newer'),
   cleanCSS = require('gulp-clean-css'),
   uglify = require('gulp-uglify'),
@@ -13,8 +13,8 @@ const gulp = require('gulp'),
   notify = require('gulp-notify'),
   del = require('del');
 
-gulp.task('clean', function (cb) {
-    del('dist/');
+gulp.task('clean', async function (cb) {
+    await del('dist/');
     cb();
 });
 
@@ -27,7 +27,7 @@ gulp.task('scss', function () {
         message: err.message
       }
     }))
-    .pipe(myth())
+    .pipe(autoprefixer())
     .pipe(cleanCSS())
     .pipe(gulp.dest('dist/css'));
 });
@@ -41,7 +41,10 @@ gulp.task('html', function () {
         message: err.message
       }
     }))
-    .pipe(svgInject())
+    .pipe(embedSvg({
+      root: './',
+      xmlMode: false,
+    }))
     .pipe(htmlmin({collapseWhitespace: true}))
     .pipe(gulp.dest('dist'));
 });

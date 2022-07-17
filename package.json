@@ -10,19 +10,22 @@
   },
   "author": "",
   "license": "ISC",
+  "browserslist": [
+    "defaults"
+  ],
   "devDependencies": {
     "del": "^6.1.1",
     "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-clean-css": "^4.3.0",
+    "gulp-embed-svg": "^1.4.8",
     "gulp-debug": "^4.0.0",
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^7.1.0",
-    "gulp-myth": "^2.0.0",
     "gulp-newer": "^1.4.0",
     "gulp-notify": "^4.0.0",
     "gulp-rigger": "^0.5.8",
     "gulp-sass": "^5.1.0",
-    "gulp-svg-inject": "^1.0.1",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.53.0"
   }
